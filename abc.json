@@ -1,0 +1,23 @@
+{
+	"name":"wb-bycm-tjb0118-m",
+    "type":"kimi",
+    "builder":"@ali/builder-tms-kimi",
+    "author": "{徐勇强}({WB114848})",
+    "version": "@BRANCH@",
+    "group": "tb-mod",
+    "options": {
+        "ignoreIndexPostfix": true,
+        "livereloadPort": 29909,
+        "port": 8009,
+        "concat":true,
+        "app-config": true,
+        "tbc-config": true,
+        "css-to-js": true,
+        "repo": "",
+        "inline": false,
+        "builderReflect": true
+    },
+    "plugins":{
+
+    }
+}

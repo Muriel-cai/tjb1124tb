@@ -1,0 +1,93 @@
+{
+  "title": "schema名称",
+  "type": "object",
+  "properties": {
+    "moduleinfo": {
+      "type": "object",
+      "title": "模块配置信息",
+      "properties": {
+        "top":{
+          "type": "string",
+          "title": "整个区块和上一个模块的间距（可不理会）"
+        },
+        "title": {
+          "type": "string",
+          "title": "专题名称"
+        },
+        "bool": {
+          "type": "boolean",
+          "title": "勾选标题"
+        },
+        "pagesize": {
+          "type": "string",
+          "title": "每页显示多少(pageSize)",
+          "default": "300"
+        },
+        "blockId": {
+          "type": "string",
+          "title": "区块id(全部商品：1100;0.01元：1101;1000金币：1102;2000金币：1103;5000金币：1104;大于500金币：1105)"
+        },
+        "extQuery": {
+          "type": "string",
+          "title": "扩展查询参数（extQuery）"
+        },
+        "activityIds": {
+          "type": "string",
+          "title": "活动Id英文逗号串（activityIds）"
+        },
+        "parentActivityIds": {
+          "type": "string",
+          "title": "活动模板Id（parentActivityIds）"
+        },
+        "itemIds": {
+          "type": "string",
+          "title": "商品Id（itemIds）"
+        },
+        "tbCat1Ids": {
+          "type": "string",
+          "title": "一级类目（tbCat1Ids）"
+        },
+        "tbCat2Ids": {
+          "type": "string",
+          "title": "二级类目（tbCat2Ids）"
+        },
+        "postage": {
+          "type": "string",
+          "title": "邮费"
+        },
+        "sx_ms": {
+          "type": "string",
+          "title": "排序条件（商品排序规则[按照销量升序排序：sales_s；按照销量降序排序：sales_x；按照价格升序：price_s；按照价格降序：price_x；按照抵扣金币数升序排序：jinbi_s；按照抵扣金币数降序排序：jinbi_x;随机为空）"
+        },
+        "shareurl":{
+           "type": "string",
+          "title": "分享的页面链接"
+        },
+        "sharetitle":{
+           "type": "string",
+          "title": "分享的标题"
+        },
+         "sharetext":{
+           "type": "string",
+          "title": "分享的文案"
+        }
+      }
+    },
+    "optioninfo": {
+      "type": "object",
+      "title": "选项配置",
+      "properties": {
+        "dynamic": {
+          "type": "string",
+          "title": "false代表禁止动态输出",
+          "default": "true"
+        },
+        "static": {
+          "type": "string",
+          "title": "false代表禁止静态输出",
+          "default": "true"
+        }
+      }
+    }
+  }
+}

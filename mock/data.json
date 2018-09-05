@@ -1,0 +1,24 @@
+{
+  "moduleinfo": {
+    "top":"10",
+    "title": "专题专题",
+    "bool": false,
+    "pagesize": "30",
+    "blockId": "1050",
+    "extQuery": "",
+    "activityIds": "",
+    "parentActivityIds": "",
+    "itemIds": "",
+    "tbCat1Ids": "",
+    "tbCat2Ids": "",
+    "postage": "8",
+    "sx_ms": "",
+    "shareurl": "https://market.m.taobao.com/markets/taojinbi/jinbikanjiatuan?wh_ttid=phone",
+    "sharetitle": "金币砍价团",
+    "sharetext": "【金币砍价团】我在金币发现一件好货帮我砍价吧"
+  },
+  "optioninfo": {
+    "dynamic": "true",
+    "static": "true"
+  }
+}

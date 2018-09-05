@@ -1,0 +1,38 @@
+
+<div class="module-wrap J_tb_lazyload" style="margin-top: -{{moduleinfo.top/75}}rem">
+<script type="text/data" class="J_ModuleData">
+        {{{$env.JSON.stringify(this)}}}
+</script>
+   <div id="J_TabHeader" class="km-tab-wrapper"  data-pageSize="{{moduleinfo.pageSize}}" data-haveActivityItems="{{moduleinfo.haveActivityItems}}" data-sx="{{moduleinfo.sx_ms}}">
+   {{#if (moduleinfo.bool)}}
+   <ul class="km-tab-triggers km-tab-normal">
+       <!--  <li class="km-tab-trigger tab-all km-active" data-blockid="1100" style="width: 100%;">{{moduleinfo.title}}</li> -->
+       
+   </ul>
+   {{/if}}
+   </div>
+   <div class="km-content-wrapper">
+       <div class="km-tab-contents">
+           <div class="km-tab-content">
+               <div class="list" data-show="">
+                    <ul class="J_CommodityWrap">
+
+                    </ul>
+               </div>
+          </div>
+       </div>
+   </div>
+   <div class="mcbox">
+     
+   </div>
+  <div class="kjbox" >
+    <div class="close1"></div>
+    <div class="kjalert" data-info="" data-amds="" data-url="{{moduleinfo.shareurl}}" data-title="{{moduleinfo.sharetitle}}" data-text="{{moduleinfo.sharetext}}"> </div>
+  
+  </div>
+   <div class="okbox" >
+    <div class="close2"></div>
+    <!-- <p class="getwho">哈哈哈哈</p> -->
+    <div class="okalert1"></div>
+  </div>
+</div>

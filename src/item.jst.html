@@ -1,0 +1,30 @@
+
+<% $.each(items, function(index,item) { %>
+<li class="item" allid="<%=item.itemId%>">
+    <a data-href="//h5.m.taobao.com/awp/core/detail.htm?id=<%=item.itemId%>" class="a<%=item.allid%>">
+      <div class="img-wrap">
+        <img class="img j_lazy" data-src="//gw.alicdn.com/tps/<%=item.item_pic%>_240x240q50.jpg">
+      </div>
+      <p class="title"><%=item.item_title%></p>
+      <p class="price">砍价后：<span><%=item.item_current_price%>+
+          <%=item.decreaseCoin%>淘金币</span>
+      </p>
+      <p class="yf">运费：8元</p>
+      <p class="origin-price"><s class="price-symbol">市场价:<%=item.item_price%></s></p> 
+      <div class="buybtn buy<%=item.allid%>"></div>             
+    </a>
+    <a href="<%=item.shopId%>" class="shopurl shop<%=item.allid%>">凑单包邮></a>
+    
+     <div class="lqkj lq<%=item.allid%>" data-num="0" dataid="<%=item.allid%>" data-id="<%=item.itemId%>"></div>
+     <div class="btkj gz_btn<%=item.allid%>" data-num="0" dataid="<%=item.allid%>" data-fl="<%=item.followId%>"></div> 
+    <div class="allimg all<%=item.allid%>">
+
+      <div class="tgzbox"><img  class="tgz"  src="https://gw.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_q90"/></div>
+      <div class="tgzbox"><img  class="tgz"  src="https://gw.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_q90"/></div>
+      <div class="tgzbox"><img  class="tgz"  src="https://gw.alicdn.com/tps/i3/TB1yeWeIFXXXXX5XFXXuAZJYXXX-210-210.png_q90"/></div>
+             
+      <span class="fqren ren<%=item.allid%>">发起人</span>
+    </div>
+  </li>
+
+<% });%>

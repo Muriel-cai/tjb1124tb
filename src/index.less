@@ -1,0 +1,368 @@
+@import "../mixins";
+@bili:75rem;
+.wb-bycm-tjb0118-m{
+  .module-wrap {
+  	width:100%;
+    overflow: hidden;
+    font-family: tahoma,Helvetica,'\534E\6587\7EC6\9ED1',arial,"microsoft yahei",'\5B8B\4F53','Hiragino Sans GB',sans-serif;
+ .km-tab-wrapper{
+    width:750/@bili;
+    min-height: 10/@bili;
+    overflow: hidden;
+    margin:0 auto;
+   
+   
+}
+
+.km-tab-triggers {
+    position: relative;
+    z-index: 99;
+    width:750/@bili;
+
+}
+
+ .km-tab-trigger p {
+    height: .37333333rem;
+    line-height: .37333333rem;
+    overflow: hidden
+}
+
+.km-tab-trigger p:first-child {
+    margin-top: .21333333rem
+}
+
+.km-tab-trigger.tab-all {
+    font-size: .4rem;
+    vertical-align: top
+}
+
+ .km-tab-trigger.km-active {
+  
+    color: #fff
+}
+.km-content-wrapper{
+    width:750/@bili;
+    min-height: 100/@bili;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.item {
+    width: 658/@bili;
+    height: 390/@bili;
+    overflow: hidden;
+    border: 10/@bili solid #ffd220;
+    margin:0 auto;
+    position: relative;
+    border-bottom-right-radius: 30/@bili;
+    border-bottom-left-radius: 30/@bili;
+    background: #fffbc2;
+    padding-top: 26/@bili;
+}
+
+.item:after,.item:before {
+    content: "";
+    display: table
+}
+
+.item:after {
+    clear: both
+}
+
+.item:first-child {
+}
+
+.item .img-wrap {
+    width: 3.2rem;
+    height: 3.2rem;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin-right: .26666667rem;
+    text-align: center;
+    line-height: 3.2rem;
+
+}
+
+.item .img-wrap .img {
+    height: 100%;
+    vertical-align: middle; 
+    margin-left: -25%;
+}
+.item .img-wrap :after{
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    content: "center";
+    vertical-align: middle;
+    overflow: hidden;
+}
+.item .img-wrap .tip-done {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: .53333333rem;
+    line-height: .53333333rem;
+    color: #fff;
+    background-color: rgba(0,0,0,.8);
+    text-align: center;
+    font-size: .37333333rem
+}
+
+.item .title {
+    font-size: 30/@bili;
+    height:40/@bili;
+    line-height:40/@bili;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #222;
+    
+}
+
+.item .price {
+    color: #222;
+    font-size: 28/@bili;
+    font-weight:400;
+    margin-top: .2rem;
+    height: 36/@bili;
+    line-height: 36/@bili;
+    span{
+        color: #f31818;
+    }
+}
+.item .yf{
+   color: #222;
+    font-size: 28/@bili;
+    font-weight:400;
+    color: #222;
+    margin-top: .2rem; 
+    height: 36/@bili;
+    line-height: 36/@bili;
+   
+}
+.item .shopurl{
+    position: absolute;
+    top:120/@bili;
+    left:400/@bili;
+    z-index: 4;
+    width: 200/@bili;
+    height: 60/@bili;
+    line-height: 60/@bili;    
+    display: inline-block;
+    font-size: 28/@bili;
+    color: #ffa300;
+    display: none;
+}
+.item .price .price-symbol {
+   color: #222;
+    font-size: 28/@bili;
+    font-weight:400;
+    margin-top: .2rem; 
+    height: 36/@bili;
+    line-height: 36/@bili;
+}
+
+.item .price .icon-plus {
+    padding: 0 .06666667rem
+}
+
+.item .price .coin {
+    font-weight: 500
+}
+
+.item .origin-price {
+    color: #222;
+    font-size: 28/@bili;
+    font-weight:400;
+    margin-top: .2rem; 
+    height: 36/@bili;
+    line-height: 36/@bili;
+    text-decoration: line-through;
+    margin-top: .06666667rem
+}
+
+.item .origin-price .price-symbol {
+    padding-right: .06666667rem
+}
+
+
+.item .lqkj {
+    position: absolute;
+    display: block;
+    width: 170/@bili;
+    height:58/@bili;
+    background: url(https://gw.alicdn.com/tfs/TB1zstgmr_I8KJjy1XaXXbsxpXa-170-58.png) no-repeat;
+    background-size: 170/@bili 58/@bili; 
+    right: 20/@bili;
+    bottom: 130/@bili;
+    font-style: normal;
+}
+.item .btkj {
+    position: absolute;
+    display: block;
+    width: 170/@bili;
+    height:58/@bili;
+    background: url(https://gw.alicdn.com/tfs/TB1n5tHmwDD8KJjy0FdXXcjvXXa-170-58.png) no-repeat;
+    background-size: 170/@bili 58/@bili; 
+    right: 220/@bili;
+    bottom: 130/@bili;
+    font-style: normal;
+    display: none;
+}
+.item .buybtn{
+    position: absolute;
+    display: block;
+    width: 170/@bili;
+    height: 58/@bili;   
+    font-style: normal;
+    background: url(https://gw.alicdn.com/tfs/TB179RgmY_I8KJjy1XaXXbsxpXa-170-58.png) no-repeat ;
+    background-size: 170/@bili 58/@bili; 
+    right: 20/@bili;
+    bottom: 130/@bili;
+    display: none;
+}
+.item .button-todo {
+    background-color: #f40
+}
+
+.item .button-done {
+    background-color: #fff;
+    color: #f40;
+    border: 1px solid #f40
+}
+
+.item .button-wait {
+    background-color: #fff;
+    color: #999;
+    border: 1px solid #999
+}
+  .lq_by{
+        color:#F40;
+     }
+     .mcbox{
+        position: fixed;
+        z-index: 4;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: #000;
+        opacity: 0.5;
+        display: none;
+     }
+     .kjbox{
+        position: fixed;
+        z-index: 99;
+        width: 708/@bili;
+        height: 741/@bili;
+        left: 50%;top:50%;
+        margin-left: -354/@bili;
+        margin-top: -370/@bili;
+        background: url(https://gw.alicdn.com/tfs/TB1Dq4Hmv6H8KJjSspmXXb2WXXa-708-741.png) no-repeat;
+        background-size: 708/@bili 741/@bili;
+        display: none;
+        .close1{
+            position: absolute;
+            z-index: 6;
+            width: 48/@bili;
+            height: 48/@bili;
+            right: 44/@bili;
+            top:44/@bili;
+        }
+        .kjalert{
+            position: absolute;
+            z-index: 6;
+            width: 434/@bili;
+            height: 98/@bili;           
+            top:540/@bili;
+            left:138/@bili;
+        }
+     }
+      .okbox{
+        position: fixed;
+        z-index: 99;
+        width: 649/@bili;
+        height:680/@bili;
+        left: 50%;top:50%;
+        margin-left: -325/@bili;
+        margin-top: -340/@bili;
+        background: url(https://gw.alicdn.com/tfs/TB1qosDm22H8KJjy0FcXXaDlFXa-648-676.png) no-repeat;
+        background-size: 649/@bili 680/@bili;
+        display: none;
+        .getwho{
+            height: 60/@bili;
+            width: 280/@bili;
+            color: red;
+            font-size: 50/@bili;
+            margin-top: 106/@bili;
+            margin-left: 310/@bili;
+            line-height: 50/@bili;
+            font-weight: bold;
+        }
+        .close2{
+            position: absolute;
+            z-index: 6;
+            width: 48/@bili;
+            height: 48/@bili;
+            right: 8/@bili;
+            top:8/@bili;
+        }
+        .okalert1{
+            position: absolute;
+            z-index: 6;
+            width: 425/@bili;
+            height: 98/@bili;           
+            top:506/@bili;
+            left:112/@bili;
+        }
+     }
+     .item .allimg{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 638/@bili;
+        height: 104/@bili;
+        padding-left: 20/@bili;
+        border-top: 10/@bili solid #ffd220;
+        overflow: hidden;
+        text-align: left;
+        line-height: 104/@bili;
+        
+        .tgzbox{
+            display: inline-block;
+            width: 64/@bili;
+            height: 64/@bili;
+            margin-left: 14/@bili;
+            border-radius: 50%;
+            margin-top: 20/@bili;
+            z-index: 6;
+            background: url(https://gw.alicdn.com/tfs/TB1iqCvncLJ8KJjy0FnXXcFDpXa-64-64.png)no-repeat;
+            background-size: 64/@bili 64/@bili;        
+            img{            
+                width: 64/@bili;
+                height: 64/@bili;
+                border-radius:50%; 
+                display: none;          
+            }
+        } 
+           .fqren{
+            position: absolute;
+            width: 80/@bili;
+            height: 26/@bili;
+            background: #ffd220;
+            color: #000;
+            font-size: 18/@bili;
+            line-height: 26/@bili;
+            text-align: center;
+            bottom: 14/@bili;
+            left: 25/@bili;
+            z-index: 10;
+            display: none;
+       }
+     }
+  }
+}
